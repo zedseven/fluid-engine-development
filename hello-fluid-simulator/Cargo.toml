@@ -1,0 +1,13 @@
+[package]
+name = "hello-fluid-simulator"
+version = "0.1.0"
+authors = ["Zacchary Dempsey-Plante <zacc@ztdp.ca>"]
+edition = "2021"
+license = "MIT"
+description = "1.1. Hello, Fluid Simulator"
+
+[profile.release]
+codegen-units = 1
+lto = true
+
+[dependencies]
